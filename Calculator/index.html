@@ -7,30 +7,35 @@
 <body>
     
     <div class="calculator">
-        <h1 font-family="Times New Roman">Calculator</h1>
         <br>
-        <!-- <div class="content"> -->
-        <input type="text" id="display" readonly>
-
+        <div class="top-row">
+            <input type="text" id="display" readonly>
+            <button id="clear" onclick="buttonClick('C')">C</button>
+        </div>
             <div class="button">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>/</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>*</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>-</button>
-                <button>0</button>
-                <button>.</button>
-                <button>=</button>
-                <button>+</button>
+                <button onclick="buttonClick('7')">7</button>
+                <button onclick="buttonClick('8')">8</button>
+                <button onclick="buttonClick('9')">9</button>
+                <button id="operator" onclick="buttonClick('/')">/</button>
+
+                <button onclick="buttonClick('4')">4</button>
+                <button onclick="buttonClick('5')">5</button>
+                <button onclick="buttonClick('6')">6</button>
+                <button id="operator" onclick="buttonClick('*')">*</button>
+
+                <button onclick="buttonClick('1')">1</button>
+                <button onclick="buttonClick('2')">2</button>
+                <button onclick="buttonClick('3')">3</button>
+                <button id="operator" onclick="buttonClick('-')">-</button>
+
+                <button onclick="buttonClick('.')">.</button>
+                <button onclick="buttonClick('0')">0</button>
+                <button onclick="buttonClick('=')">=</button>
+                <button id="operator" onclick="buttonClick('+')">+</button>
+
+
+                
             </div>
-    <!-- </div> -->
     </div>
     <script src="script.js"></script>
 </body>
