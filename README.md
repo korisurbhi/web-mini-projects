@@ -1,17 +1,3 @@
-# Calculator Website
+# Web Mini Projects
 
-A simple calculator website built using HTML, CSS and JavaScript.
-
-## Features
-
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Clear Display
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
+A collection of web development projects built using HTML, CSS and JavaScript as part of my learning journey.
